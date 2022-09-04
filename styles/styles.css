@@ -1,0 +1,127 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Montserrat-Bold";
+  font-size: 30px;
+}
+
+.container {
+  padding: 1rem;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: wheat;
+  border-radius: 32px;
+  min-height: 300px;
+  max-height: 550px;
+}
+
+.todos {
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 350px;
+}
+
+.todoText {
+  width: 150px;
+}
+
+button {
+  margin: 0 5px;
+}
+
+body {
+
+
+  background-image: url("Project.webp");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Montserrat-Bold";
+  color: black;
+  overflow: hidden;
+
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+form {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-weight: 200;
+  width: 313px;
+  font-size: 20px;
+  padding-top: 20px;
+  border-radius: 32px;
+  border: 1px solid black
+}
+
+input[type="text"]:focus {
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 black;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  padding-bottom: 6px;
+  border-width: 0;
+  text-decoration: none;
+  background-color: black;
+  color: wheat;
+}
+
+.list {
+  margin: auto;
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add {
+  text-decoration: line-through;
+}
+
+.tasks {
+  padding-left: 0%;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
